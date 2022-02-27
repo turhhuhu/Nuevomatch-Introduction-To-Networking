@@ -1,0 +1,29 @@
+Loading nuevomatch with batch size of 128...
+Log: (load) iSet size is 99485, with 10 columns, 1 validation phases, and field index of 0. Total size: 4377340 bytes (src/interval_set.cpp:162)
+Log: (load) iSet size is 73, with 10 columns, 1 validation phases, and field index of 0. Total size: 3212 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 1. Extracted 73 rules. (src/nuevomatch.cpp:413)
+Log: (load_subsets) Total rules after removing validation phase duplicates: 99619 (src/nuevomatch.cpp:438)
+Log: (load_subsets) iSet 0 holds 99485 rules (coverage: 99.87) for field 0 with RQRMI size of 18869 bytes (src/nuevomatch.cpp:445)
+Log: (load_subsets) NuevoMatch total coverage: 99.87% (src/nuevomatch.cpp:449)
+Log: (build_remainder) Manually building remainder classifier (remainder holds 134 rules) (src/nuevomatch.cpp:524)
+Log: (group_subsets_to_cores) NuevoMatch worker 0 on CPU 0 holds: {iSet-0 CutSplit} of total 19793 KB. (src/nuevomatch.cpp:675)
+Classifier attributes:
+Total rules: 99619
+Total size (bytes): 18869
+Build time (ms): 290756
+Reading trace file...
+Total 700000 packets in trace
+Warming cache...
+Iteration 0...
+Iteration 1...
+Iteration 2...
+Iteration 3...
+Iteration 4...
+Repeating experiment 1 times
+Starting trace test for classifier with 700000 packets...
+Cache hit rate: 0.00, utilization: 0.00
+Classifier Information:
+Performance: total time 173550.129 usec. Average time: 0.248 usec per packet.
+Serial worker 0 total time: 173550.238 used, avg time per batch: 31.733 usec, publish time: 11735.819 us
+Remainder classifier total size: 924 bytes
+done.

@@ -1,0 +1,35 @@
+Loading nuevomatch with batch size of 128...
+Log: (load) iSet size is 89495, with 10 columns, 1 validation phases, and field index of 1. Total size: 3937780 bytes (src/interval_set.cpp:162)
+Log: (load) iSet size is 8988, with 10 columns, 1 validation phases, and field index of 0. Total size: 395472 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 1. Extracted 8988 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 738, with 10 columns, 1 validation phases, and field index of 0. Total size: 32472 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 2. Extracted 738 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 330, with 10 columns, 1 validation phases, and field index of 1. Total size: 14520 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 3. Extracted 330 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 81, with 10 columns, 1 validation phases, and field index of 3. Total size: 3564 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 4. Extracted 81 rules. (src/nuevomatch.cpp:413)
+Log: (load_subsets) Total rules after removing validation phase duplicates: 99741 (src/nuevomatch.cpp:438)
+Log: (load_subsets) iSet 0 holds 89495 rules (coverage: 89.73) for field 1 with RQRMI size of 19149 bytes (src/nuevomatch.cpp:445)
+Log: (load_subsets) NuevoMatch total coverage: 89.73% (src/nuevomatch.cpp:449)
+Log: (build_remainder) Manually building remainder classifier (remainder holds 10246 rules) (src/nuevomatch.cpp:524)
+Log: (group_subsets_to_cores) NuevoMatch worker 0 on CPU 0 holds: {OnlineTupleMerge iSet-0} of total 269459 KB. (src/nuevomatch.cpp:675)
+Classifier attributes:
+Total rules: 99741
+Total size (bytes): 19149
+Build time (ms): 494974
+Reading trace file...
+Total 700000 packets in trace
+Warming cache...
+Iteration 0...
+Iteration 1...
+Iteration 2...
+Iteration 3...
+Iteration 4...
+Repeating experiment 1 times
+Starting trace test for classifier with 700000 packets...
+Cache hit rate: 0.00, utilization: 0.00
+Classifier Information:
+Performance: total time 386672.084 usec. Average time: 0.552 usec per packet.
+Serial worker 0 total time: 386672.194 used, avg time per batch: 70.703 usec, publish time: 11150.935 us
+Remainder classifier total size: 250310 bytes
+done.

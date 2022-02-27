@@ -1,0 +1,37 @@
+Loading nuevomatch with batch size of 128...
+Log: (load) iSet size is 68806, with 10 columns, 1 validation phases, and field index of 1. Total size: 3027464 bytes (src/interval_set.cpp:162)
+Log: (load) iSet size is 15243, with 10 columns, 1 validation phases, and field index of 0. Total size: 670692 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 1. Extracted 15243 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 115, with 10 columns, 1 validation phases, and field index of 1. Total size: 5060 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 2. Extracted 115 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 114, with 10 columns, 1 validation phases, and field index of 0. Total size: 5016 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 3. Extracted 114 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 90, with 10 columns, 1 validation phases, and field index of 0. Total size: 3960 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 4. Extracted 90 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 90, with 10 columns, 1 validation phases, and field index of 1. Total size: 3960 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 5. Extracted 90 rules. (src/nuevomatch.cpp:413)
+Log: (load_subsets) Total rules after removing validation phase duplicates: 85162 (src/nuevomatch.cpp:438)
+Log: (load_subsets) iSet 0 holds 68806 rules (coverage: 80.79) for field 1 with RQRMI size of 19149 bytes (src/nuevomatch.cpp:445)
+Log: (load_subsets) NuevoMatch total coverage: 80.79% (src/nuevomatch.cpp:449)
+Log: (build_remainder) Manually building remainder classifier (remainder holds 16356 rules) (src/nuevomatch.cpp:524)
+Log: (group_subsets_to_cores) NuevoMatch worker 0 on CPU 0 holds: {CutSplit iSet-0} of total 60225 KB. (src/nuevomatch.cpp:675)
+Classifier attributes:
+Total rules: 85162
+Total size (bytes): 19149
+Build time (ms): 588043
+Reading trace file...
+Total 700000 packets in trace
+Warming cache...
+Iteration 0...
+Iteration 1...
+Iteration 2...
+Iteration 3...
+Iteration 4...
+Repeating experiment 1 times
+Starting trace test for classifier with 700000 packets...
+Cache hit rate: 0.00, utilization: 0.00
+Classifier Information:
+Performance: total time 267143.748 usec. Average time: 0.382 usec per packet.
+Serial worker 0 total time: 267143.895 used, avg time per batch: 48.847 usec, publish time: 8951.525 us
+Remainder classifier total size: 41076 bytes
+done.

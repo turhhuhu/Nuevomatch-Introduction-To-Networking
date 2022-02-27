@@ -1,0 +1,40 @@
+Loading CutSplit classifier from file. Input: classifier filename
+Classifier attributes:
+Total rules: 86669
+Total size (bytes): 195848
+Build time (ms): 380
+Reading trace file...
+Total 700000 packets in trace
+Warming cache...
+Iteration 0...
+Iteration 1...
+Iteration 2...
+Iteration 3...
+Iteration 4...
+Repeating experiment 1 times
+Starting trace test for classifier with 700000 packets...
+Cache hit rate: 0.00, utilization: 0.00
+Classifier Information:
+CutSplit internal tries:
+***SA Subset Tree (using FiCuts + HyperSlit):***
+ number of rules:33060
+ worst case tree level: 3
+ worst case tree depth: 10
+ total memory (all) (Pre-Cutting + Post_Splitting): 96316(bytes)
+***DA: Subset Tree (using FiCuts + HyperSlit):***
+ number of rules:53428
+ worst case tree level: 3
+ worst case tree depth: 8
+ total memory (all) (Pre-Cutting + Post_Splitting): 99532(bytes)
+***Big rules(using HyperSlit):***
+ number of rules: 181
+ number of children: 91
+ worst case tree depth: 9
+ average tree depth: 7.417583
+ number of tree nodes:90
+ number of leaf nodes:91
+ total memory: 1084.000000(bytes)
+ Performance: average work time per packet: 0.000 us
+Required memory accesses (worst-case): 27, binth: 8
+Performance: total time 448155 usec. Average time: 0.640 usec per packet.
+done.
