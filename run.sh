@@ -57,9 +57,12 @@ function execute_script {
     done
 }
 
-# execute_script acl 5 100
-# execute_script fw 5 100
-execute_script ipc 2 100
+#execute_script acl 5 500
+# execute_script fw 5 500
+# execute_script ipc 2 500
+# execute_script acl 5 500
+# execute_script fw 5 500
+execute_script ipc 2 500
 
 
 

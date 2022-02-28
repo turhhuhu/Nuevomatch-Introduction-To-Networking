@@ -1,0 +1,55 @@
+Loading TupleMerge classifier from file. Input: classifier filename
+Classifier attributes:
+Total rules: 478351
+Total size (bytes): 11723753
+Build time (ms): 459
+Reading trace file...
+Total 700000 packets in trace
+Warming cache...
+Iteration 0...
+Iteration 1...
+Iteration 2...
+Iteration 3...
+Iteration 4...
+Repeating experiment 1 times
+Starting trace test for classifier with 700000 packets...
+Cache hit rate: 0.00, utilization: 0.00
+Classifier Information:
+Tuple Merge Classifier
+There are 31 tables:
+Table 0 with 22285 rules
+Table 1 with 86175 rules
+Table 2 with 56336 rules
+Table 3 with 36915 rules
+Table 4 with 4861 rules
+Table 5 with 29748 rules
+Table 6 with 42347 rules
+Table 7 with 69645 rules
+Table 8 with 5160 rules
+Table 9 with 14415 rules
+Table 10 with 18384 rules
+Table 11 with 10727 rules
+Table 12 with 772 rules
+Table 13 with 843 rules
+Table 14 with 37102 rules
+Table 15 with 29601 rules
+Table 16 with 787 rules
+Table 17 with 2125 rules
+Table 18 with 1651 rules
+Table 19 with 1649 rules
+Table 20 with 796 rules
+Table 21 with 510 rules
+Table 22 with 96 rules
+Table 23 with 1037 rules
+Table 24 with 722 rules
+Table 25 with 396 rules
+Table 26 with 1078 rules
+Table 27 with 1782 rules
+Table 28 with 393 rules
+Table 29 with 12 rules
+Table 30 with 1 rules
+Collision Limit: 10
+Total rules: 478351
+Build time 0.000 ms
+Performance: total time 550303 usec. Average time: 0.786 usec per packet.
+done.
